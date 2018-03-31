@@ -1,6 +1,12 @@
 import sys,optparse,socket,random,string,threading,os
-from urllib.request import urlopen
-from scapy.all import *
+try:
+    from urllib.request import urlopen
+except ImportError:
+    print('please have urllib installed to continue with httpflood.')
+try:
+    from scapy.all import *
+except ImportError:
+    print('please have scapy installed to continue with httpflood.')
 count = 0
 r,g,b,y,bo,end = '\033[31m','\033[32m','\033[32m','\033[93m','\033[01m','\033[0m'
 def header():
