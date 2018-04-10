@@ -6,7 +6,7 @@ scapy-python3, requests
 ```
 ### Installation:
 ```
-pip3 install scapy-python3
+pip3 install scapy
 pip3 install requests
 ```
 ## Installation:
