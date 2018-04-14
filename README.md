@@ -2,7 +2,7 @@
 An HTTP Flooding tool written with Python 3
 ## Required Python Modules:
 ```
-scapy-python3, requests
+scapy, requests
 ```
 ### Installation:
 ```
